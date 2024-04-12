@@ -26,14 +26,28 @@ int main(){
     // return 0;
 
 
-    // Square No.
-    int i, n;
-    printf("Enter a number :");
-    scanf("%d", &n);
+    // // Square No.
+    // int i, n;
+    // printf("Enter a number :");
+    // scanf("%d", &n);
 
-    for(i=n; i<=n; i++){
-        printf("%d square is %d ", i,(i*i));
-    }
+    // for(i=n; i<=n; i++){
+    //     printf("%d square is %d ", i,(i*i));
+    // }
+    // return 0;
+
+    // fabionical series
+    int i, t1, t2, next;
+    t1=0;
+    t2=1;
+    next=t1+t2;
+    printf("%d \n %d\n", t1, t2);
+    for(i=3; i<=10; i++){
+        printf("%d \n", next);
+        t1 = t2;
+        t2= next;
+        next= t1+t2;
+        }
     return 0;
-
+    
 }
