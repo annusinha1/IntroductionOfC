@@ -36,18 +36,34 @@ int main(){
     // }
     // return 0;
 
-    // fabionical series
-    int i, t1, t2, next;
-    t1=0;
-    t2=1;
-    next=t1+t2;
-    printf("%d \n %d\n", t1, t2);
-    for(i=3; i<=10; i++){
-        printf("%d \n", next);
-        t1 = t2;
-        t2= next;
-        next= t1+t2;
-        }
+    // // fabionical series
+    // int i, t1, t2, next;
+    // t1=0;
+    // t2=1;
+    // next=t1+t2;
+    // printf("%d \n %d\n", t1, t2);
+    // for(i=3; i<=10; i++){
+    //     printf("%d \n", next);
+    //     t1 = t2;
+    //     t2= next;
+    //     next= t1+t2;
+    //     }
+    // return 0;
+
+
+    //Reverse no. program (for loop)
+    int num, rev = 0, remainder;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    for (int i = num; i > 0; i /= 10) {
+        remainder = i % 10;
+        rev = rev * 10 + remainder;
+    }
+
+    printf("Reversed number: %d\n", rev);
+
     return 0;
-    
+        
 }
