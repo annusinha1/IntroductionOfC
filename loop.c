@@ -51,18 +51,18 @@ int main(){
     // return 0;
 
 
-    //Reverse no. program (for loop)
-    int  num, rev = 0, remainder;
+    // //Reverse no. program (for loop)
+    // int  num, rev = 0, remainder;
 
-    printf("Enter a number: ");
-    scanf("%d", &num);
+    // printf("Enter a number: ");
+    // scanf("%d", &num);
 
-    for ( num!=0; num /= 10;) {
-        remainder = num % 10;
-        rev = rev * 10 + remainder;
-    }
+    // for ( num!=0; num /= 10;) {
+    //     remainder = num % 10;
+    //     rev = rev * 10 + remainder;
+    // }
 
-    printf("Reversed number: %d\n", rev);
+    // printf("Reversed number: %d\n", rev);
 
-    return 0;
+    // return 0;
 }
