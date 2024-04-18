@@ -26,6 +26,6 @@ int main(){
         hcf=i;
         i++;
     }
-    printf("%d",hcf);
+    printf(" The H.C.F of two values is: %d",hcf);
     return 0;
 }
