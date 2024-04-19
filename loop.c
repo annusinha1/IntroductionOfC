@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main(){
-    //sum of all natural no.
-    int i, sum;
-    for(i=1;i<=30;i++){
-        sum+=i;
-    }
-    printf("%d \n",i);
-    return 0 ;
+    // //sum of all natural no.
+    // int i, sum;
+    // for(i=1;i<=30;i++){
+    //     sum+=i;
+    // }
+    // printf("%d \n",i);
+    // return 0 ;
 
     // //factorial
     //    int i, mul=1;
