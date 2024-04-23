@@ -50,7 +50,7 @@
 //     return a*b;
 // }
 
-
+// Salary and bonus program
 #include <stdio.h>
 int bonus (int salary);
 int pf (int salary);
