@@ -55,13 +55,16 @@
 int bonus (int salary);
 int pf (int salary);
 int esi (int salary);
+int netsal(int salary);
 int main(){
-    int salary;
+    int salary, netsal,x1,x2,x3;
     printf ("Enter your salary : ");
     scanf("%d", salary);
-    bonus(salary);
-    pf(salary);
-    esi(salary);
+    x1 = bonus(salary);
+    x2= pf(salary);
+    x3= esi(salary);
+     netsal = (salary + x1) - (x2 + x3) ;
+    printf ("Net salary is : %d", netsal);
     return 0;
 }
 int bonus (int salary){
@@ -80,15 +83,16 @@ int bonus (int salary){
          bonus = salary*10/100;
     if (salary>5000 && salary<=10000)
          bonus = salary*5/100;
-    printf(" Bonus is: %d \n", bonus);
 }
 int pf(int salary){
     int pf;
-    pf = salary - 10/100;
-    printf("Deducted pf is: %d \n", pf);
+    pf = salary * 10/100;
 }
 int esi(int salary){
     int esi;
-    esi = salary - 470;
-    printf("Deducted esi is %d \n", esi);
+    esi = salary  * 2/100;
+}
+int netsal(int salary){
+    int netsal;
+
 }
