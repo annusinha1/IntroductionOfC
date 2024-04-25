@@ -1,3 +1,4 @@
+// Even & Odd program using function in C
 #include <stdio.h>
     int num_fun(int);
     int main(){
