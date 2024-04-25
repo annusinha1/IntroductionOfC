@@ -56,8 +56,5 @@ int main(){
         }
         ++i;
     }  while(guess != num && i <= num);
-
     return 0;
-
-
 }
