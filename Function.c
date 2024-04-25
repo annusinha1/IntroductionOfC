@@ -50,49 +50,52 @@
 //     return a*b;
 // }
 
-// Salary and bonus program
-#include <stdio.h>
-int bonus (int salary);
-int pf (int salary);
-int esi (int salary);
-int netsal(int salary);
-int main(){
-    int salary, netsal,x1,x2,x3;
-    printf ("Enter your salary : ");
-    scanf("%d", salary);
-    x1 = bonus(salary);
-    x2= pf(salary);
-    x3= esi(salary);
-     netsal = (salary + x1) - (x2 + x3) ;
-    printf ("Net salary is : %d", netsal);
-    return 0;
-}
-int bonus (int salary){
-    int bonus;
-    if(salary>75000 && salary<=100000)
-        bonus = salary*25/100;
-    if (salary>70000 && salary<=75000)
-        bonus = salary*22/100;
-    if(salary>60000 && salary<=70000)
-         bonus = salary*20/100;
-    if(salary>50000 && salary<=60000)
-         bonus = salary*17/100;
-    if(salary>30000 && salary<=50000)
-         bonus = salary*15/100;
-    if(salary>10000 && salary<=30000)
-         bonus = salary*10/100;
-    if (salary>5000 && salary<=10000)
-         bonus = salary*5/100;
-}
-int pf(int salary){
-    int pf;
-    pf = salary * 10/100;
-}
-int esi(int salary){
-    int esi;
-    esi = salary  * 2/100;
-}
-int netsal(int salary){
-    int netsal;
+// // Salary and bonus program
+// #include <stdio.h>
+// int bonus (int salary);
+// int pf (int salary);
+// int esi (int salary);
+// int netsal(int salary);
+// int main(){
+//     int salary, netsal,x1,x2,x3;
+//     printf ("Enter your salary : ");
+//     scanf("%d", salary);
+//     x1 = bonus(salary);
+//     x2= pf(salary);
+//     x3= esi(salary);
+//      netsal = (salary + x1) - (x2 + x3) ;
+//     printf ("Net salary is : %d", netsal);
+//     return 0;
+// }
+// int bonus (int salary){
+//     int bonus;
+//     if(salary>75000 && salary<=100000)
+//         bonus = salary*25/100;
+//     if (salary>70000 && salary<=75000)
+//         bonus = salary*22/100;
+//     if(salary>60000 && salary<=70000)
+//          bonus = salary*20/100;
+//     if(salary>50000 && salary<=60000)
+//          bonus = salary*17/100;
+//     if(salary>30000 && salary<=50000)
+//          bonus = salary*15/100;
+//     if(salary>10000 && salary<=30000)
+//          bonus = salary*10/100;
+//     if (salary>5000 && salary<=10000)
+//          bonus = salary*5/100;
+// }
+// int pf(int salary){
+//     int pf;
+//     pf = salary * 10/100;
+// }
+// int esi(int salary){
+//     int esi;
+//     esi = salary  * 2/100;
+// }
+// int netsal(int salary){
+//     int netsal;
 
-}
+// }
+
+
+   
