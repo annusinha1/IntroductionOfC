@@ -45,7 +45,7 @@ int main(){
     }
     printf(" \n maximum no is : %d ", max );
     printf(" \n minimum no is : %d", min);
-
+    
     return 0;
 
 }
